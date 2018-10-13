@@ -1,0 +1,56 @@
+﻿capital = 546
+
+#OOB = "ALB_1936"
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 5
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 0
+		}
+
+		nationalism = { 
+			popularity = 70
+		}
+
+		supremacism = { 
+			popularity = 15
+		}
+	}
+	
+	ruling_party = nationalism
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 18
+
+create_country_leader = {
+	name = "Heinrich Westhuzien"
+	desc = "POLITICS_KING_ZOG_DESC"
+	picture = "Portrait_Africa_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = Revolutionary-Nationalism
+	traits = {
+		#
+	}
+}
